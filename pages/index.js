@@ -1,11 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Callforpapers from './Callforpapers'
-import Committie from './Committie'
-import Conference from './conference'
-import Registeration from './Registeration'
-import Submission from './Submission'
-import Venue from './Venue'
+import About from './about'
+import Dsce from './dsce'
+import Page from './page'
 
 export default function Home() {
   return (
@@ -16,12 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-<Callforpapers />
- <Committie />
- <Conference />
- <Registeration />
- <Submission />
- <Venue />
+      <About />
+         <Page />
+         <Dsce />
+       
+ 
     </div>
   )
 }
