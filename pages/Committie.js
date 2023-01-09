@@ -3,7 +3,7 @@ import Image from 'next/image';
 import vc from '../Images/vicechairman.jpg'
 import chairman from '../Images/Chairman.jpg'
 
-const committie = () => {
+const Committie = () => {
   return (<>
   <div className='bg-blue-100 pt-20'>
     <div >
@@ -382,4 +382,4 @@ Mr. Harsha L<br />
   );
 }
 
-export default committie;
+export default Committie;
