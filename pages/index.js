@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
 <Callforpapers />
-{/* <Committie /> */}
+ <Committie />
     </div>
   )
 }

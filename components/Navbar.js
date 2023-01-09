@@ -74,7 +74,7 @@ const Navbar = () => {
               <Link href='/conference'>About Conference</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/committie'>Committee</Link>
+              <Link href='/Committie'>Committee</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/Callforpapers'>Call For Papers</Link>
