@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Callforpapers from './Callforpapers'
 import Committie from './Committie'
+import Conference from './conference'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
 <Callforpapers />
  <Committie />
+ <Conference />
     </div>
   )
 }
