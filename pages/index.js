@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Callforpapers from './Callforpapers'
 import Committie from './Committie'
 import Conference from './conference'
+import Registeration from './Registeration'
+import Submission from './Submission'
+import Venue from './Venue'
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
 <Callforpapers />
  <Committie />
  <Conference />
+ <Registeration />
+ <Submission />
+ <Venue />
     </div>
   )
 }
