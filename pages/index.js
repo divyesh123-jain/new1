@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Callforpapers from './Callforpapers'
-import Committie from './commitie'
+import Committie from './Committie'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
 <Callforpapers />
-<Committie />
+{/* <Committie /> */}
     </div>
   )
 }
